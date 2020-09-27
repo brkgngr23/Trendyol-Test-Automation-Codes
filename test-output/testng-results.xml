@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1570" started-at="2020-09-27T06:32:33 EET" finished-at="2020-09-27T06:32:34 EET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1570" started-at="2020-09-27T06:32:33 EET" finished-at="2020-09-27T06:32:34 EET">
+      <class name="com.trendyol.test.services.petstore.PostCreateWhiteList">
+        <test-method status="PASS" signature="StartSuite(org.testng.ITestContext)[pri:0, instance:com.trendyol.test.services.petstore.PostCreateWhiteList@2781e022]" name="StartSuite" is-config="true" duration-ms="53" started-at="2020-09-27T06:32:33 EET" finished-at="2020-09-27T06:32:33 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3098cf3b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartSuite -->
+        <test-method status="PASS" signature="Before(java.lang.reflect.Method)[pri:0, instance:com.trendyol.test.services.petstore.PostCreateWhiteList@2781e022]" name="Before" is-config="true" duration-ms="44" started-at="2020-09-27T06:32:33 EET" finished-at="2020-09-27T06:32:33 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.trendyol.test.services.petstore.PostCreateWhiteList.postCreateWhiteList()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before -->
+        <test-method status="PASS" signature="postCreateWhiteList()[pri:0, instance:com.trendyol.test.services.petstore.PostCreateWhiteList@2781e022]" name="postCreateWhiteList" duration-ms="1498" started-at="2020-09-27T06:32:33 EET" finished-at="2020-09-27T06:32:34 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCreateWhiteList -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.trendyol.test.services.petstore.PostCreateWhiteList@2781e022]" name="getResult" is-config="true" duration-ms="0" started-at="2020-09-27T06:32:34 EET" finished-at="2020-09-27T06:32:34 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=postCreateWhiteList status=SUCCESS method=PostCreateWhiteList.postCreateWhiteList()[pri:0, instance:com.trendyol.test.services.petstore.PostCreateWhiteList@2781e022] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.trendyol.test.services.petstore.PostCreateWhiteList.postCreateWhiteList()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.trendyol.test.services.petstore.PostCreateWhiteList -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
